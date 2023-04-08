@@ -107,3 +107,15 @@
     
 })(jQuery);
 
+// change image logo before to scroll
+window.addEventListener("scroll", function() {
+    let logoImg = document.getElementById("logo-img");
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+      logoImg.src = "img/logo2.png";
+    } else {
+      logoImg.src = "img/logo1.png";
+    }
+  });
+  
+  
+  
