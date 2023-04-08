@@ -541,3 +541,22 @@ nav {
     border-right: none;
 }
 
+/* penambahan mode mobile baru dari chat gpt*/
+@media (max-width: 768px) { /* ukuran layar maksimal untuk mode mobile */
+    #logo-img {
+      display: block; /* tampilkan logo */
+      max-width: 100%; /* atur lebar maksimal logo */
+      height: auto; /* atur tinggi logo sesuai rasio aspek */
+    }
+
+    #logo-img {
+        content: url('../img/logo2.png'); /* ganti path/to/logo-mobile.png dengan path logo mobile kamu */
+      }
+  }
+  
+  
+  
+  
+  
+  
+  
